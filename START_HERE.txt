@@ -1,5 +1,0 @@
-Verified on your real data (offline run): Part 1, Part 2 and Part 3 match every acceptance number in the brief.
-NOT done (needs your own Gemini key, which I cannot use): notebook 04 -> notes_analysed.csv.
-clinics_enriched.csv / load_data.sql in reference_outputs_... have blank temp_c / NULL because my sandbox has no internet.
-You must re-run 01 in Colab so temp_c comes from the live Open-Meteo API, then submit YOUR Colab outputs.
-Do not submit the reference_outputs folder or this file.
