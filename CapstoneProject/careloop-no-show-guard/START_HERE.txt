@@ -1,0 +1,20 @@
+CareLoop No-Show Guard - what is in this folder and what to do
+
+READY (code you run):
+  01_ingest_clean.ipynb   Part 1  (needs data/ with the 3 real CSVs)
+  02_queries.sql          Part 2  (SQL file; run in MySQL Workbench or SQLiteOnline)
+  03_model.ipynb          Part 3  (needs appointments_clean.csv from notebook 01)
+  04_genai.ipynb          Part 4  (needs your own Gemini key typed at run time, and MODEL_NAME set)
+  README.md               template - fill every [ ] with YOUR numbers
+  helpers/                run_part2_colab.py / colab_part2_one_cell.py = run 02_queries.sql inside Colab (SQLite)
+
+CREATED ONLY WHEN YOU RUN THE NOTEBOOKS ON THE REAL DATA (I cannot make these for you):
+  rejected_rows.json, appointments_clean.csv, clinics_enriched.csv, load_data.sql  <- notebook 01
+  test_risk_scores.csv                                                            <- notebook 03
+  notes_analysed.csv                                                              <- notebook 04
+
+ORDER: put real CSVs in data/ -> run 01 -> run Part 2 (SQL) -> run 03 -> run 04 -> fill README -> upload to GitHub.
+
+practice_data_DO_NOT_SUBMIT/ is synthetic, only to test that the notebooks run. Never submit it or its results.
+For GitHub: upload everything EXCEPT helpers/ (optional), practice_data_DO_NOT_SUBMIT/ and START_HERE.txt.
+Before downloading 04_genai.ipynb: clear outputs and search it for your API key.

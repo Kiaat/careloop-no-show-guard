@@ -1,0 +1,9 @@
+id,name,city,tier,latitude,longitude
+C01,Practice Clinic A,Pune,Tier-1,18.52,73.85
+C02,Practice Clinic B,Pune,Tier-1,18.46,73.87
+C03,Practice Clinic C,Jaipur,Tier-2,26.91,75.79
+C04,Practice Clinic D,Jaipur,Tier-2,26.85,75.81
+C05,Practice Clinic E,Indore,Tier-2,22.72,75.86
+C06,Practice Clinic F,Kochi,Tier-2,9.99,76.3
+C07,Practice Clinic G,Lucknow,Tier-2,26.85,80.95
+C08,Practice Clinic H,Nagpur,Tier-2,21.15,79.09

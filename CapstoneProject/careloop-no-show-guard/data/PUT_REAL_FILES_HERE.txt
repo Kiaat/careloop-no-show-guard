@@ -1,0 +1,5 @@
+Put the ORIGINAL assignment files here, unedited:
+  appointments.csv
+  clinics.csv
+  followup_notes.csv
+(Get them from your course / assignment page. I could not supply them.)
